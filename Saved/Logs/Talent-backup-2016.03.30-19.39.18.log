@@ -1,0 +1,492 @@
+﻿[2016.03.31-02.16.29:630][  0]Log file open, 03/30/16 19:16:29
+[2016.03.31-02.16.29:630][  0]LogInit:Display: Running engine for game: Talent
+[2016.03.31-02.16.29:630][  0]LogInit:Display: RandInit(704671077) SRandInit(704671077).
+[2016.03.31-02.16.29:630][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.31-02.16.29:630][  0]LogStats: Stats thread started at 0.118387
+[2016.03.31-02.16.29:630][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.31-02.16.29:630][  0]LogInit: API Version: 2672455
+[2016.03.31-02.16.29:630][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.31-02.16.29:630][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.31-02.16.29:630][  0]LogInit: Build Configuration: Development
+[2016.03.31-02.16.29:630][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.31-02.16.29:630][  0]LogInit: Command line:  
+[2016.03.31-02.16.29:630][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.31-02.16.29:630][  0]LogInit: Rocket: 1
+[2016.03.31-02.16.29:644][  0]LogInit: Using libcurl 7.41.0
+[2016.03.31-02.16.29:644][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.31-02.16.29:644][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.31-02.16.29:644][  0]LogInit:  - other features:
+[2016.03.31-02.16.29:644][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.31-02.16.29:644][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.31-02.16.29:644][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.31-02.16.29:644][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.31-02.16.29:644][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.31-02.16.29:644][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.31-02.16.29:644][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.31-02.16.29:644][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.31-02.16.29:644][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.31-02.16.29:644][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.31-02.16.29:655][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.31-02.16.29:664][  0]LogInit: Object subsystem initialized
+[2016.03.31-02.16.29:667][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.31-02.16.29:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.31-02.16.29:679][  0]LogInit: Computer: THOMAS-PC
+[2016.03.31-02.16.29:679][  0]LogInit: User: Thomas
+[2016.03.31-02.16.29:679][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.31-02.16.29:679][  0]LogInit: High frequency timer resolution =3.320322 MHz
+[2016.03.31-02.16.29:679][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.31-02.16.29:679][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.31-02.16.29:679][  0]LogMemory: Process Physical Memory: 54.10 MB used, 54.10 MB peak
+[2016.03.31-02.16.29:679][  0]LogMemory: Process Virtual Memory: 58.24 MB used, 58.24 MB peak
+[2016.03.31-02.16.29:679][  0]LogMemory: Physical Memory: 4647.13 MB used, 8120.09 MB total
+[2016.03.31-02.16.29:679][  0]LogMemory: Virtual Memory: 368.26 MB used, 134217728.00 MB total
+[2016.03.31-02.16.29:720][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.31-02.16.31:138][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 Ti  (Feature Level 11_0)
+[2016.03.31-02.16.31:138][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 4060MB of shared system memory, 3 output[s]
+[2016.03.31-02.16.31:142][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.31-02.16.31:142][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4060MB of shared system memory, 0 output[s]
+[2016.03.31-02.16.31:142][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.31-02.16.31:151][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.31-02.16.31:151][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.31-02.16.31:184][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.31-02.16.31:201][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Thomas/Code/Talents/Intermediate/Shaders/WorkingDirectory/7408/).
+[2016.03.31-02.16.31:201][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Thomas/Code/Talents/Intermediate/Shaders/tmp/F55E68D647DD241712E2B7AD4A15CD34/'.
+[2016.03.31-02.16.31:201][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.31-02.16.33:971][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.31-02.16.33:984][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.31-02.16.33:998][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.31-02.16.34:012][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.31-02.16.34:026][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.31-02.16.34:039][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.31-02.16.34:048][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.31-02.16.34:056][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.31-02.16.34:067][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.31-02.16.34:077][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.31-02.16.34:088][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.31-02.16.34:098][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.31-02.16.34:100][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.31-02.16.34:136][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.31-02.16.34:144][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.31-02.16.34:151][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.31-02.16.34:165][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.31-02.16.34:165][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.31-02.16.34:442][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.31-02.16.34:814][  0]LogDerivedDataCache: Loaded boot cache 0.37s 41MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.31-02.16.34:814][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.31-02.16.34:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Thomas/Code/Talents/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.31-02.16.34:815][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.31-02.16.34:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Thomas/Code/Talents/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.31-02.16.34:815][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.31-02.16.35:124][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.31-02.16.35:137][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.31-02.16.35:406][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.31-02.16.35:413][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.31-02.16.35:664][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.31-02.16.35:664][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.31-02.16.36:237][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.31-02.16.57:751][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.31-02.16.58:202][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.03.31-02.16.58:602][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.16.58:618][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.16.58:640][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.16.58:662][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.16.59:170][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.31-02.16.59:329][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.03.31-02.16.59:329][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2016.03.31-02.16.59:639][  0]LogEngine: Initializing Engine...
+[2016.03.31-02.16.59:645][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.31-02.16.59:655][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.31-02.16.59:893][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.31-02.16.59:906][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.16.59:932][  0]LogInit: FAudioDevice initialized.
+[2016.03.31-02.16.59:950][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/Thomas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.31-02.16.59:960][  0]LogInit: Texture streaming: Enabled
+[2016.03.31-02.16.59:972][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.31-02.16.59:972][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.31-02.16.59:972][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9137a229423ce0abd15f43af8d071b78|6f72fca771cd4ab4a5e00d1744cfc368|0a3d2142-832f-45b8-b9db-501cd138b6a3
+[2016.03.31-02.16.59:972][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.31-02.17.00:048][  0]LogInit: Transaction tracking system initialized
+[2016.03.31-02.17.00:137][  0]BlueprintLog: New page: Editor Load
+[2016.03.31-02.17.00:449][  0]LocalizationService: Info Localization service is disabled
+[2016.03.31-02.17.00:911][  0]LogConsoleResponse:Display: 
+[2016.03.31-02.17.01:196][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.31-02.17.01:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Content/' took 0.02s
+[2016.03.31-02.17.02:004][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.17.02:004][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.31-02.17.02:041][  0]LightingResults: New page: Lighting Build
+[2016.03.31-02.17.02:052][  0]MapCheck: New page: Map Check
+[2016.03.31-02.17.02:052][  0]LightingResults: New page: Lighting Build
+[2016.03.31-02.17.02:084][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B8C62E160
+[2016.03.31-02.17.02:333][  0]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.17.02:336][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.31-02.17.02:337][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.31-02.17.02:457][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.449ms to complete.
+[2016.03.31-02.17.02:457][  0]LogFileHelpers: Loading map 'Intro' took 0.453
+[2016.03.31-02.17.02:993][  0]LogCollectionManager: Loaded 0 collections in 0.005213 seconds
+[2016.03.31-02.17.03:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Saved/Collections/' took 0.01s
+[2016.03.31-02.17.03:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Content/Developers/Thomas/Collections/' took 0.01s
+[2016.03.31-02.17.03:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Content/Collections/' took 0.01s
+[2016.03.31-02.17.03:045][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 1867 classes and 333 folders.
+[2016.03.31-02.17.03:097][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.03.31-02.17.03:114][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.03.31-02.17.05:621][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.31-02.17.05:637][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.03.31-02.17.05:768][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.31-02.17.05:783][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.31-02.17.05:836][  0]LogLoad: Full Startup: 37.19 seconds (BP compile: 0.01 seconds)
+[2016.03.31-02.17.06:801][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.31-02.17.07:519][  0]LogRenderer: Reallocating scene render targets to support 1168x600 (Frame:2).
+[2016.03.31-02.17.08:550][  4]LogAssetRegistry: Asset discovery search completed in 10.3591 seconds
+[2016.03.31-02.17.08:550][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.31-02.17.08:550][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2016.03.31-02.18.17:274][210]AssetReimport: New page: Outstanding source content changes 12:18:17 PM
+[2016.03.31-02.18.17:275][210]LogEditorFactories: Performing atomic reimport of [C:/Users/Thomas/Code/Talents/Content/Textures/platform.png]
+[2016.03.31-02.18.17:275][210]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Thomas/Code/Talents/Content/Textures/platform.png)
+[2016.03.31-02.18.17:299][210]LogEditorFactories: -- imported successfully
+[2016.03.31-02.18.17:419][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/platform" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset" SILENT=true
+[2016.03.31-02.18.17:744][210]LogSavePackage: Save=71.702385ms
+[2016.03.31-02.18.17:744][210]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/platformD15962F54E920B029076B9AB4899CEF1.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset'
+[2016.03.31-02.18.17:745][210]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset', retrying in .5s...
+[2016.03.31-02.18.18:246][210]LogFileManager:Error: Error deleting file '../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset'.
+[2016.03.31-02.18.18:246][210]LogSavePackage:Error: Error saving '../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset'
+[2016.03.31-02.18.18:249][210]LogSavePackage: Total save time: 826.493938ms
+[2016.03.31-02.18.18:249][210]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset
+[2016.03.31-02.18.58:620][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/platform" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset" SILENT=true
+[2016.03.31-02.18.58:662][210]LogSavePackage: Save=31.683071ms
+[2016.03.31-02.18.58:662][210]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/platformE214433E486F42CA11D8A48107F971C3.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset'
+[2016.03.31-02.18.58:666][210]LogSavePackage: Total save time: 42.280536ms
+[2016.03.31-02.18.58:666][210]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset
+[2016.03.31-02.18.58:678][210]EditorErrors: New page: Save Output
+[2016.03.31-02.18.58:678][210]EditorErrors:Warning: Warning Error saving '../../../../../../Users/Thomas/Code/Talents/Content/Textures/platform.uasset'
+[2016.03.31-02.19.00:608][419]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background)
+[2016.03.31-02.19.01:710][507]AssetReimport: Info Reimported asset platform from C:/Users/Thomas/Code/Talents/Content/Textures/platform.png.
+[2016.03.31-02.19.02:581][597]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background)
+[2016.03.31-02.19.04:185][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Intro" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.31-02.19.04:233][759]LogSavePackage: Save=20.936523ms
+[2016.03.31-02.19.04:233][759]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Intro40501C024C962432CAB488AF3DC0B024.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap'
+[2016.03.31-02.19.04:234][759]LogSavePackage: Total save time: 33.571444ms
+[2016.03.31-02.19.04:234][759]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap
+[2016.03.31-02.19.05:688][908]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform3)
+[2016.03.31-02.19.10:003][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Intro" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.31-02.19.10:040][292]LogSavePackage: Save=17.165806ms
+[2016.03.31-02.19.10:040][292]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Intro58460FF9492AC0E5C95FFE8C61909588.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap'
+[2016.03.31-02.19.10:043][292]LogSavePackage: Total save time: 26.273355ms
+[2016.03.31-02.19.10:043][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap
+[2016.03.31-02.19.10:090][292]LogFileHelpers: Saving map 'Intro' took 0.141
+[2016.03.31-02.19.10:838][369]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform2)
+[2016.03.31-02.19.11:356][419]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background)
+[2016.03.31-02.19.14:156][706]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background)
+[2016.03.31-02.19.14:773][770]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background)
+[2016.03.31-02.19.15:357][833]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.03.31-02.19.18:494][163]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.31-02.19.20:533][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Intro" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.31-02.19.20:569][369]LogSavePackage: Save=16.393892ms
+[2016.03.31-02.19.20:569][369]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Intro9A236CFA4FEC3B49060D69A60BE6ADB5.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap'
+[2016.03.31-02.19.20:571][369]LogSavePackage: Total save time: 25.197554ms
+[2016.03.31-02.19.20:571][369]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap
+[2016.03.31-02.19.20:616][369]LogFileHelpers: Saving map 'Intro' took 0.149
+[2016.03.31-02.19.22:174][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.31-02.19.22:174][526]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:19:22 PM)
+[2016.03.31-02.19.22:174][526]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.19.22:176][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001267s)
+[2016.03.31-02.19.22:176][526]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.19.22:177][526]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2016.03.31-02.19.22:177][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002577s)
+[2016.03.31-02.19.22:201][526]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.19.22:218][526]LogInit: FAudioDevice initialized.
+[2016.03.31-02.19.22:662][526]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.19.22:668][526]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.19.22
+[2016.03.31-02.19.22:668][526]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.19.22:669][526]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.19.22:669][526]LogWorld: Bringing up level for play took: 0.004141
+[2016.03.31-02.19.22:674][526]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.393
+[2016.03.31-02.19.32:882][727]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BEC3BE7A0
+[2016.03.31-02.19.38:441][ 67]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.31-02.19.39:285][ 67]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2016.03.31-02.19.49:034][481]LogRenderer: Reallocating scene render targets to support 1168x884 (Frame:4376).
+[2016.03.31-02.20.01:509][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.31-02.20.01:510][145]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:20:01 PM)
+[2016.03.31-02.20.01:510][145]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.20.01:511][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001154s)
+[2016.03.31-02.20.01:512][145]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.20.01:512][145]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2016.03.31-02.20.01:512][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002195s)
+[2016.03.31-02.20.01:556][145]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.20.01:574][145]LogInit: FAudioDevice initialized.
+[2016.03.31-02.20.01:610][145]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.20.01:614][145]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.20.01
+[2016.03.31-02.20.01:614][145]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.20.01:614][145]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.20.01:614][145]LogWorld: Bringing up level for play took: 0.002542
+[2016.03.31-02.20.01:617][145]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro -0.665
+[2016.03.31-02.20.05:852][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BFDDF0AE0
+[2016.03.31-02.21.05:630][988]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player', cached variable property's owner is '/Game/Blueprints/Player.SKEL_Player_C'
+[2016.03.31-02.21.14:607][499]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player', cached variable property's owner is '/Game/Blueprints/Player.SKEL_Player_C'
+[2016.03.31-02.21.16:948][650]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player', cached variable property's owner is '/Game/Blueprints/Player.SKEL_Player_C'
+[2016.03.31-02.21.45:861][532]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player', cached variable property's owner is '/Script/Paper2D.PaperCharacter'
+[2016.03.31-02.21.48:747][712]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player', cached variable property's owner is '/Script/Paper2D.PaperCharacter'
+[2016.03.31-02.21.51:042][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.21.51:218][846]LogSavePackage: Save=156.822739ms
+[2016.03.31-02.21.51:218][846]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Player0787497B491FA04BEFFE23A90EE7768E.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.21.51:222][846]LogSavePackage: Total save time: 177.556273ms
+[2016.03.31-02.21.51:222][846]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.21.58:942][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.21.59:093][310]LogSavePackage: Save=142.042847ms
+[2016.03.31-02.21.59:093][310]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/PlayerB1AD896A418A75D2B3C5138BED88D68B.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.21.59:097][310]LogSavePackage: Total save time: 153.995607ms
+[2016.03.31-02.21.59:097][310]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.22.00:262][382]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.31-02.22.00:365][382]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.03.31-02.22.00:479][382]LogPlayLevel: PlayLevel: Blueprint regeneration took 216 ms (1 blueprints)
+[2016.03.31-02.22.00:520][382]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:22:00 PM)
+[2016.03.31-02.22.00:520][382]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.22.00:522][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001465s)
+[2016.03.31-02.22.00:522][382]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.22.00:523][382]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2016.03.31-02.22.00:523][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002834s)
+[2016.03.31-02.22.00:566][382]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.22.00:581][382]LogInit: FAudioDevice initialized.
+[2016.03.31-02.22.00:616][382]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.22.00:620][382]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.22.00
+[2016.03.31-02.22.00:620][382]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.22.00:620][382]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.22.00:620][382]LogWorld: Bringing up level for play took: 0.002558
+[2016.03.31-02.22.00:623][382]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.341
+[2016.03.31-02.22.05:973][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBDF41120
+[2016.03.31-02.22.26:501][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.31-02.22.26:501][871]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:22:26 PM)
+[2016.03.31-02.22.26:501][871]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.22.26:503][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001528s)
+[2016.03.31-02.22.26:504][871]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.22.26:504][871]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2016.03.31-02.22.26:504][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002755s)
+[2016.03.31-02.22.26:552][871]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.22.26:570][871]LogInit: FAudioDevice initialized.
+[2016.03.31-02.22.26:611][871]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.22.26:615][871]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.22.26
+[2016.03.31-02.22.26:615][871]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.22.26:615][871]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.22.26:615][871]LogWorld: Bringing up level for play took: 0.002609
+[2016.03.31-02.22.26:619][871]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.337
+[2016.03.31-02.22.30:734][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BAF3D0400
+[2016.03.31-02.22.41:479][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset" SILENT=true
+[2016.03.31-02.22.41:502][818]LogSavePackage: Save=11.523882ms
+[2016.03.31-02.22.41:502][818]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot4F9373E24260F7AE58753FA28B946A9D.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset'
+[2016.03.31-02.22.41:506][818]LogSavePackage: Total save time: 24.650019ms
+[2016.03.31-02.22.41:506][818]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset
+[2016.03.31-02.22.45:726][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset" SILENT=true
+[2016.03.31-02.22.45:747][ 83]LogSavePackage: Save=11.556710ms
+[2016.03.31-02.22.45:747][ 83]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shootDCC59223482972FD170158B5CD56361D.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset'
+[2016.03.31-02.22.45:750][ 83]LogSavePackage: Total save time: 22.704124ms
+[2016.03.31-02.22.45:750][ 83]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset
+[2016.03.31-02.22.56:042][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset" SILENT=true
+[2016.03.31-02.22.56:061][874]LogSavePackage: Save=10.410135ms
+[2016.03.31-02.22.56:061][874]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shootCD1149C54050438D5C0DA4BB2C50528F.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset'
+[2016.03.31-02.22.56:065][874]LogSavePackage: Total save time: 21.646697ms
+[2016.03.31-02.22.56:065][874]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset
+[2016.03.31-02.27.13:047][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.27.13:238][367]LogSavePackage: Save=172.279984ms
+[2016.03.31-02.27.13:238][367]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Player2AE9E7C34BD559284711EABA3ECC8721.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.27.13:243][367]LogSavePackage: Total save time: 194.187492ms
+[2016.03.31-02.27.13:243][367]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.27.49:643][578]AssetReimport: New page: Outstanding source content changes 12:27:49 PM
+[2016.03.31-02.27.49:694][579]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Thomas/Code/Talents/Content/img/arrow.png)
+[2016.03.31-02.27.49:749][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/img/arrow" FILE="../../../../../../Users/Thomas/Code/Talents/Content/img/arrow.uasset" SILENT=true
+[2016.03.31-02.27.49:757][580]LogSavePackage: Save=5.313942ms
+[2016.03.31-02.27.49:757][580]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/arrow8EC06D6242219C1C80E4838A225DE182.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/img/arrow.uasset'
+[2016.03.31-02.27.49:760][580]LogSavePackage: Total save time: 8.221492ms
+[2016.03.31-02.27.49:760][580]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/img/arrow.uasset
+[2016.03.31-02.27.52:993][621]AssetReimport: Info Importing new asset /Game/img/arrow.
+[2016.03.31-02.28.05:754][789]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Thomas/Code/Talents/Content/img/arrow.png)
+[2016.03.31-02.28.05:756][789]LogTexture:Display: Building textures: arrow (BGRA8)
+[2016.03.31-02.28.17:244][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/arrow_Sprite_0" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/arrow_Sprite_0.uasset" SILENT=true
+[2016.03.31-02.28.17:255][435]LogSavePackage: Save=10.073119ms
+[2016.03.31-02.28.17:255][435]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/arrow_Sprite_0BF59351A4AF2AD8B3FE95AA15CEDCDF5.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/arrow_Sprite_0.uasset'
+[2016.03.31-02.28.17:262][435]LogSavePackage: Total save time: 16.615860ms
+[2016.03.31-02.28.17:262][435]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/arrow_Sprite_0.uasset
+[2016.03.31-02.28.25:760][987]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (background)
+[2016.03.31-02.29.03:358][693]LogRenderer: Reallocating scene render targets to support 1168x940 (Frame:28870).
+[2016.03.31-02.29.07:985][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/arrow" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/arrow.uasset" SILENT=true
+[2016.03.31-02.29.07:995][953]LogSavePackage: Save=7.321278ms
+[2016.03.31-02.29.07:995][953]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/arrow2B6E08374C9C89E62A1160BF61416729.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/arrow.uasset'
+[2016.03.31-02.29.07:998][953]LogSavePackage: Total save time: 10.827564ms
+[2016.03.31-02.29.07:998][953]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/arrow.uasset
+[2016.03.31-02.29.08:011][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/arrow_Sprite_0" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/arrow_Sprite_0.uasset" SILENT=true
+[2016.03.31-02.29.08:019][953]LogSavePackage: Save=4.762189ms
+[2016.03.31-02.29.08:019][953]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/arrow_Sprite_017899F8949936310586D31A111A305AF.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/arrow_Sprite_0.uasset'
+[2016.03.31-02.29.08:022][953]LogSavePackage: Total save time: 8.141980ms
+[2016.03.31-02.29.08:022][953]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/arrow_Sprite_0.uasset
+[2016.03.31-02.29.08:031][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Arrow" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset" SILENT=true
+[2016.03.31-02.29.08:060][953]LogSavePackage: Save=26.979010ms
+[2016.03.31-02.29.08:060][953]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/ArrowF320E93E422271EA6FD61CB00BF132A0.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset'
+[2016.03.31-02.29.08:063][953]LogSavePackage: Total save time: 30.467227ms
+[2016.03.31-02.29.08:063][953]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset
+[2016.03.31-02.29.29:141][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.31-02.29.29:780][940]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Arrow_C_44' or package '/Engine/Transient'.
+[2016.03.31-02.29.29:780][940]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Arrow_C_1' or package '/Engine/Transient'.
+[2016.03.31-02.29.29:780][940]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Arrow_C_43' or package '/Engine/Transient'.
+[2016.03.31-02.29.29:780][940]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Arrow_C_0' or package '/Engine/Transient'.
+[2016.03.31-02.29.29:980][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBE374180
+[2016.03.31-02.29.29:982][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBE3749A0
+[2016.03.31-02.30.00:449][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBCED7100
+[2016.03.31-02.31.41:405][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Arrow" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset" SILENT=true
+[2016.03.31-02.31.41:431][916]LogSavePackage: Save=24.435883ms
+[2016.03.31-02.31.41:431][916]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/ArrowE2A8A9804A444A388CBA338EFCF1FE03.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset'
+[2016.03.31-02.31.41:435][916]LogSavePackage: Total save time: 28.151486ms
+[2016.03.31-02.31.41:435][916]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset
+[2016.03.31-02.32.02:755][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Arrow" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset" SILENT=true
+[2016.03.31-02.32.02:799][126]LogSavePackage: Save=24.973783ms
+[2016.03.31-02.32.02:799][126]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Arrow731480884E1A047A17B27E8733BFE447.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset'
+[2016.03.31-02.32.02:803][126]LogSavePackage: Total save time: 45.913920ms
+[2016.03.31-02.32.02:803][126]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset
+[2016.03.31-02.32.43:274][160]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Intro' took 0.045
+[2016.03.31-02.33.40:775][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.33.40:975][523]LogSavePackage: Save=182.553986ms
+[2016.03.31-02.33.40:977][523]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Player1D2D04814461132A96E673A6E4DA7295.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.33.41:000][523]LogSavePackage: Total save time: 223.814137ms
+[2016.03.31-02.33.41:000][523]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.34.18:067][413]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player.Player:EventGraph.K2Node_VariableGet_64 or K2Node_VariableGet /Game/Blueprints/Player.Player:ShootBow.K2Node_VariableGet_64
+[2016.03.31-02.34.18:067][413]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Player.Player:EventGraph.K2Node_CallFunction_2456 or K2Node_CallFunction /Game/Blueprints/Player.Player:ShootBow.K2Node_CallFunction_2456
+[2016.03.31-02.34.18:076][413]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Blueprints/Player.Player:EventGraph.K2Node_CustomEvent_10 or K2Node_CustomEvent /Game/Blueprints/Player.Player:ShootBow.K2Node_CustomEvent_10
+[2016.03.31-02.34.26:691][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.34.26:846][923]LogSavePackage: Save=147.205597ms
+[2016.03.31-02.34.26:846][923]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Player3BE1A5524D6A757CCBC2E6985EC8F4BA.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.34.26:850][923]LogSavePackage: Total save time: 157.796744ms
+[2016.03.31-02.34.26:850][923]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.34.48:775][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.34.48:948][223]LogSavePackage: Save=163.622681ms
+[2016.03.31-02.34.48:948][223]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/PlayerEC1C68C24886A00F1410858FE2FA7FCF.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.34.48:952][223]LogSavePackage: Total save time: 175.931130ms
+[2016.03.31-02.34.48:952][223]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.35.49:604][900]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Player', cached variable property's owner is '/Game/Blueprints/Player.SKEL_Player_C'
+[2016.03.31-02.35.52:577][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.35.52:759][ 81]LogSavePackage: Save=171.769180ms
+[2016.03.31-02.35.52:759][ 81]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Player78E931DF48116C00E468FEB0FDDDC1ED.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.35.52:764][ 81]LogSavePackage: Total save time: 185.243178ms
+[2016.03.31-02.35.52:764][ 81]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.36.37:278][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.36.37:471][703]LogSavePackage: Save=184.001434ms
+[2016.03.31-02.36.37:471][703]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/Player18440B744477A0E033E5328828338E9E.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.36.37:475][703]LogSavePackage: Total save time: 196.217112ms
+[2016.03.31-02.36.37:475][703]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.36.56:613][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset" SILENT=true
+[2016.03.31-02.36.56:818][836]LogSavePackage: Save=193.762833ms
+[2016.03.31-02.36.56:818][836]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/PlayerA4360EAD40F44C5645F46EA5D862138E.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset'
+[2016.03.31-02.36.56:822][836]LogSavePackage: Total save time: 207.618419ms
+[2016.03.31-02.36.56:822][836]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Player.uasset
+[2016.03.31-02.37.00:697][ 28]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.31-02.37.00:722][ 28]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.03.31-02.37.00:860][ 28]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (2 blueprints)
+[2016.03.31-02.37.00:871][ 28]LogPlayLevel: [PlayLevel] Compiling Arrow before play...
+[2016.03.31-02.37.01:022][ 28]LogPlayLevel: PlayLevel: Blueprint regeneration took 324 ms (2 blueprints)
+[2016.03.31-02.37.01:074][ 28]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:37:01 PM)
+[2016.03.31-02.37.01:074][ 28]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.37.01:076][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001741s)
+[2016.03.31-02.37.01:077][ 28]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.37.01:077][ 28]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2016.03.31-02.37.01:078][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.003413s)
+[2016.03.31-02.37.01:129][ 28]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.37.01:151][ 28]LogInit: FAudioDevice initialized.
+[2016.03.31-02.37.01:194][ 28]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.37.01:198][ 28]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.37.01
+[2016.03.31-02.37.01:198][ 28]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.01:198][ 28]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.01:198][ 28]LogWorld: Bringing up level for play took: 0.002596
+[2016.03.31-02.37.01:201][ 28]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.919
+[2016.03.31-02.37.07:274][467]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BC3B26B60
+[2016.03.31-02.37.40:546][260]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (background)
+[2016.03.31-02.37.43:029][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.31-02.37.43:030][368]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:37:43 PM)
+[2016.03.31-02.37.43:030][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.37.43:031][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001281s)
+[2016.03.31-02.37.43:032][368]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.37.43:032][368]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2016.03.31-02.37.43:032][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002561s)
+[2016.03.31-02.37.43:079][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.37.43:096][368]LogInit: FAudioDevice initialized.
+[2016.03.31-02.37.43:135][368]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.37.43:139][368]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.37.43
+[2016.03.31-02.37.43:139][368]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.43:139][368]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.43:139][368]LogWorld: Bringing up level for play took: 0.002894
+[2016.03.31-02.37.43:142][368]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.86
+[2016.03.31-02.38.10:986][267]LogSelection:Warning: PIE object was selected: "Arrow_C /Game/UEDPIE_0_Intro.Intro:PersistentLevel.Arrow_C_9"
+[2016.03.31-02.38.20:030][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBDDD2700
+[2016.03.31-02.38.26:261][228]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.31-02.38.26:269][228]LogPlayLevel: [PlayLevel] Compiling Arrow before play...
+[2016.03.31-02.38.26:370][228]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (2 blueprints)
+[2016.03.31-02.38.26:382][228]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.03.31-02.38.26:509][228]LogPlayLevel: PlayLevel: Blueprint regeneration took 248 ms (2 blueprints)
+[2016.03.31-02.38.26:551][228]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:38:26 PM)
+[2016.03.31-02.38.26:551][228]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.38.26:552][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001306s)
+[2016.03.31-02.38.26:553][228]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.38.26:553][228]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2016.03.31-02.38.26:553][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002521s)
+[2016.03.31-02.38.26:599][228]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.38.26:617][228]LogInit: FAudioDevice initialized.
+[2016.03.31-02.38.26:660][228]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.38.26:663][228]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.38.26
+[2016.03.31-02.38.26:663][228]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.38.26:663][228]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.38.26:663][228]LogWorld: Bringing up level for play took: 0.002386
+[2016.03.31-02.38.26:666][228]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.384
+[2016.03.31-02.38.33:446][803]LogSelection:Warning: PIE object was selected: "Arrow_C /Game/UEDPIE_0_Intro.Intro:PersistentLevel.Arrow_C_9"
+[2016.03.31-02.38.36:623][ 34]LogSelection:Warning: PIE object was selected: "ProjectileMovementComponent /Game/UEDPIE_0_Intro.Intro:PersistentLevel.Arrow_C_9.ProjectileMovement"
+[2016.03.31-02.38.42:342][399]LogSelection:Warning: PIE object was selected: "ProjectileMovementComponent /Game/UEDPIE_0_Intro.Intro:PersistentLevel.Arrow_C_9.ProjectileMovement"
+[2016.03.31-02.38.46:420][674]LogSelection:Warning: PIE object was selected: "ProjectileMovementComponent /Game/UEDPIE_0_Intro.Intro:PersistentLevel.Arrow_C_9.ProjectileMovement"
+[2016.03.31-02.38.48:811][829]LogSelection:Warning: PIE object was selected: "ProjectileMovementComponent /Game/UEDPIE_0_Intro.Intro:PersistentLevel.Arrow_C_9.ProjectileMovement"
+[2016.03.31-02.38.54:271][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BC50D8D60
+[2016.03.31-02.38.57:581][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Arrow" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset" SILENT=true
+[2016.03.31-02.38.57:618][363]LogSavePackage: Save=22.807728ms
+[2016.03.31-02.38.57:618][363]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/ArrowA3F492F448829ED1E391A6971E0A8220.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset'
+[2016.03.31-02.38.57:621][363]LogSavePackage: Total save time: 39.292272ms
+[2016.03.31-02.38.57:621][363]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Blueprints/Arrow.uasset
+[2016.03.31-02.38.58:824][431]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.31-02.38.58:831][431]LogPlayLevel: [PlayLevel] Compiling Arrow before play...
+[2016.03.31-02.38.58:924][431]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (2 blueprints)
+[2016.03.31-02.38.58:939][431]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.03.31-02.38.59:061][431]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (2 blueprints)
+[2016.03.31-02.38.59:101][431]PIE: New page: PIE session: Intro (Mar 30, 2016, 12:38:59 PM)
+[2016.03.31-02.38.59:101][431]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Intro
+[2016.03.31-02.38.59:103][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001278s)
+[2016.03.31-02.38.59:103][431]LogAIModule: Creating AISystem for world Intro
+[2016.03.31-02.38.59:103][431]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2016.03.31-02.38.59:104][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Intro.Intro to /Game/UEDPIE_0_Intro.Intro (0.002377s)
+[2016.03.31-02.38.59:150][431]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.31-02.38.59:167][431]LogInit: FAudioDevice initialized.
+[2016.03.31-02.38.59:207][431]LogWorld: Game class is 'PaperGameMode_C'
+[2016.03.31-02.38.59:211][431]LogWorld: Bringing World /Game/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2016.03.30-19.38.59
+[2016.03.31-02.38.59:211][431]LogActor:Warning: GameSession /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.38.59:211][431]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.38.59:211][431]LogWorld: Bringing up level for play took: 0.002571
+[2016.03.31-02.38.59:214][431]PIE: Info Play in editor start time for /Game/UEDPIE_0_Intro 0.932
+[2016.03.31-02.39.03:107][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BB7F5F1A0
+[2016.03.31-02.39.06:123][927]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.31-02.39.07:043][927]LogD3D11RHI: bDeviceRemoved
+[2016.03.31-02.39.07:043][927]LogD3D11RHI: CleanupD3DDevice
+[2016.03.31-02.39.07:047][927]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.03.31-02.39.08:988][927]LogCrashTracker: 
+
+
+[2016.03.31-02.39.08:988][927]LogCrashTracker: 
+
+
+[2016.03.31-02.39.08:988][927]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Windows\D3D11RHI\Private\Windows\WindowsD3D11Device.cpp] [Line: 402] 
+The Direct3D 11 device that was being used has been removed (Error: -2005270521 'RESET').  Please restart the game.
+
+
+
+
+[2016.03.31-02.39.09:276][927]LogExit: Executing StaticShutdownAfterError
+[2016.03.31-02.39.09:287][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:287][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:287][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:288][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:288][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:288][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:289][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:289][927]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.31-02.39.09:290][927]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.31-02.39.09:290][927]Log file closed, 03/30/16 19:39:09

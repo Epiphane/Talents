@@ -1,0 +1,515 @@
+﻿[2016.03.30-06.17.27:519][  0]Log file open, 03/29/16 23:17:27
+[2016.03.30-06.17.27:519][  0]LogInit:Display: Running engine for game: Talent
+[2016.03.30-06.17.27:519][  0]LogInit:Display: RandInit(-1960367193) SRandInit(-1960367193).
+[2016.03.30-06.17.27:519][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.30-06.17.27:519][  0]LogStats: Stats thread started at 0.096623
+[2016.03.30-06.17.27:519][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.30-06.17.27:519][  0]LogInit: API Version: 2672455
+[2016.03.30-06.17.27:519][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.30-06.17.27:519][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.30-06.17.27:519][  0]LogInit: Build Configuration: Development
+[2016.03.30-06.17.27:519][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.30-06.17.27:519][  0]LogInit: Command line: -EpicPortal 
+[2016.03.30-06.17.27:519][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.30-06.17.27:519][  0]LogInit: Rocket: 1
+[2016.03.30-06.17.27:530][  0]LogInit: Using libcurl 7.41.0
+[2016.03.30-06.17.27:530][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.30-06.17.27:530][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.30-06.17.27:530][  0]LogInit:  - other features:
+[2016.03.30-06.17.27:530][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.30-06.17.27:530][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.30-06.17.27:530][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.30-06.17.27:530][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.30-06.17.27:530][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.30-06.17.27:530][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.30-06.17.27:530][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.30-06.17.27:530][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.30-06.17.27:530][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.30-06.17.27:530][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.30-06.17.27:539][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.30-06.17.27:548][  0]LogInit: Object subsystem initialized
+[2016.03.30-06.17.27:550][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-06.17.27:550][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.30-06.17.27:567][  0]LogInit: Computer: THOMAS-PC
+[2016.03.30-06.17.27:567][  0]LogInit: User: Thomas
+[2016.03.30-06.17.27:567][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.30-06.17.27:567][  0]LogInit: High frequency timer resolution =3.320322 MHz
+[2016.03.30-06.17.27:567][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.30-06.17.27:567][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-06.17.27:567][  0]LogMemory: Process Physical Memory: 54.12 MB used, 54.12 MB peak
+[2016.03.30-06.17.27:567][  0]LogMemory: Process Virtual Memory: 58.25 MB used, 58.25 MB peak
+[2016.03.30-06.17.27:567][  0]LogMemory: Physical Memory: 3693.45 MB used, 8120.09 MB total
+[2016.03.30-06.17.27:567][  0]LogMemory: Virtual Memory: 368.26 MB used, 134217728.00 MB total
+[2016.03.30-06.17.27:617][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.30-06.17.28:989][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 Ti  (Feature Level 11_0)
+[2016.03.30-06.17.28:989][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 4060MB of shared system memory, 3 output[s]
+[2016.03.30-06.17.28:991][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.30-06.17.28:991][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4060MB of shared system memory, 0 output[s]
+[2016.03.30-06.17.28:991][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.30-06.17.28:997][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.30-06.17.28:997][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.30-06.17.29:015][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.30-06.17.29:039][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Thomas/Code/Talents/Intermediate/Shaders/WorkingDirectory/9924/).
+[2016.03.30-06.17.29:040][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Thomas/Code/Talents/Intermediate/Shaders/tmp/46B708DF43A2D6C4A0CB1DBE5EA4104C/'.
+[2016.03.30-06.17.29:040][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.30-06.17.31:019][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.30-06.17.31:028][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.30-06.17.31:036][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.30-06.17.31:046][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.30-06.17.31:057][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.30-06.17.31:063][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.30-06.17.31:068][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.30-06.17.31:074][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.30-06.17.31:080][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.30-06.17.31:085][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.30-06.17.31:091][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.30-06.17.31:097][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.30-06.17.31:098][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.30-06.17.31:120][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.30-06.17.31:126][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.30-06.17.31:131][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.30-06.17.31:137][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.30-06.17.31:137][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.30-06.17.31:260][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.30-06.17.31:327][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.30-06.17.31:327][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.30-06.17.31:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Thomas/Code/Talents/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.30-06.17.31:327][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.30-06.17.31:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Thomas/Code/Talents/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.30-06.17.31:327][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.30-06.17.31:576][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.30-06.17.31:589][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.30-06.17.31:864][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-06.17.31:868][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.30-06.17.32:351][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.30-06.17.32:351][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.30-06.17.32:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.30-06.17.34:237][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.30-06.17.34:370][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.03.30-06.17.34:818][  0]SourceControl: Info Source control is disabled
+[2016.03.30-06.17.34:835][  0]SourceControl: Info Source control is disabled
+[2016.03.30-06.17.34:855][  0]SourceControl: Info Source control is disabled
+[2016.03.30-06.17.34:878][  0]SourceControl: Info Source control is disabled
+[2016.03.30-06.17.35:207][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.30-06.17.35:355][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.03.30-06.17.35:355][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.03.30-06.17.35:448][  0]LogEngine: Initializing Engine...
+[2016.03.30-06.17.35:452][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.30-06.17.35:463][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.30-06.17.35:697][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.30-06.17.35:708][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.30-06.17.35:724][  0]LogInit: FAudioDevice initialized.
+[2016.03.30-06.17.35:755][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.30-06.17.35:762][  0]LogInit: Texture streaming: Enabled
+[2016.03.30-06.17.35:770][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.30-06.17.35:770][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.30-06.17.35:770][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9137a229423ce0abd15f43af8d071b78|6f72fca771cd4ab4a5e00d1744cfc368|0a3d2142-832f-45b8-b9db-501cd138b6a3
+[2016.03.30-06.17.35:770][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.30-06.17.35:814][  0]LogInit: Transaction tracking system initialized
+[2016.03.30-06.17.35:864][  0]BlueprintLog: New page: Editor Load
+[2016.03.30-06.17.36:060][  0]LocalizationService: Info Localization service is disabled
+[2016.03.30-06.17.36:313][  0]LogConsoleResponse:Display: 
+[2016.03.30-06.17.36:601][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Content/' took 0.06s
+[2016.03.30-06.17.36:601][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.30-06.17.36:731][  0]SourceControl: Info Source control is disabled
+[2016.03.30-06.17.36:731][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Thomas/Code/Talents/Content/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.30-06.17.37:110][  0]LightingResults: New page: Lighting Build
+[2016.03.30-06.17.37:116][  0]MapCheck: New page: Map Check
+[2016.03.30-06.17.37:116][  0]LightingResults: New page: Lighting Build
+[2016.03.30-06.17.37:132][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000651330E160
+[2016.03.30-06.17.37:486][  0]LogAIModule: Creating AISystem for world Intro
+[2016.03.30-06.17.37:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.30-06.17.37:514][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.30-06.17.37:608][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.423ms to complete.
+[2016.03.30-06.17.37:608][  0]LogFileHelpers: Loading map 'Intro' took 0.877
+[2016.03.30-06.17.38:179][  0]LogCollectionManager: Loaded 0 collections in 0.004015 seconds
+[2016.03.30-06.17.38:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Saved/Collections/' took 0.01s
+[2016.03.30-06.17.38:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Content/Developers/Thomas/Collections/' took 0.01s
+[2016.03.30-06.17.38:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Code/Talents/Content/Collections/' took 0.01s
+[2016.03.30-06.17.38:233][  0]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 1867 classes and 333 folders.
+[2016.03.30-06.17.38:269][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.03.30-06.17.38:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.03.30-06.17.40:893][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.30-06.17.40:923][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.03.30-06.17.41:224][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.30-06.17.41:619][  0]LogLoad: Full Startup: 15.40 seconds (BP compile: 0.00 seconds)
+[2016.03.30-06.17.42:658][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.30-06.17.42:954][  0]LogRenderer: Reallocating scene render targets to support 1168x600 (Frame:2).
+[2016.03.30-06.17.43:338][  2]LogAssetRegistry: Asset discovery search completed in 8.9787 seconds
+[2016.03.30-06.17.43:338][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.30-06.17.43:338][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2016.03.30-06.38.05:452][824]AssetReimport: New page: Outstanding source content changes 4:38:05 PM
+[2016.03.30-06.38.05:463][825]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Thomas/Code/Talents/Content/img/character_shoot.png)
+[2016.03.30-06.38.05:548][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/img/character_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/img/character_shoot.uasset" SILENT=true
+[2016.03.30-06.38.05:564][826]LogSavePackage: Save=10.097214ms
+[2016.03.30-06.38.05:564][826]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/character_shootE2C2C5704C61C83883C002B775DCF40B.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/img/character_shoot.uasset'
+[2016.03.30-06.38.05:589][826]LogSavePackage: Total save time: 35.611305ms
+[2016.03.30-06.38.05:589][826]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/img/character_shoot.uasset
+[2016.03.30-06.38.08:611][ 64]AssetReimport: Info Importing new asset /Game/img/character_shoot.
+[2016.03.30-06.38.09:727][145]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Thomas\Code\Talents\Content\img\character_shoot.png)
+[2016.03.30-06.38.09:729][145]LogTexture:Display: Building textures: character_shoot (BGRA8)
+[2016.03.30-06.39.06:617][432]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Intro' took 0.017
+[2016.03.30-06.39.06:635][432]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/character_shoot] ([1] browsable assets)...
+[2016.03.30-06.39.06:638][432]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/character_shoot.character_shoot]
+[2016.03.30-06.39.06:638][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/character_shoot]
+[2016.03.30-06.39.06:638][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/character_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Saved/Autosaves/Game/Textures/character_shoot_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.03.30-06.39.06:646][432]LogSavePackage: Save=6.324387ms
+[2016.03.30-06.39.06:646][432]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/character_shoot_Auto14F557C364EDFA01989FB8C81371C5743.tmp' to '../../../../../../Users/Thomas/Code/Talents/Saved/Autosaves/Game/Textures/character_shoot_Auto1.uasset'
+[2016.03.30-06.39.06:660][432]LogSavePackage: Total save time: 20.372722ms
+[2016.03.30-06.39.06:660][432]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Saved/Autosaves/Game/Textures/character_shoot_Auto1.uasset
+[2016.03.30-06.39.06:660][432]LogFileHelpers: Auto-saving content packages took 0.040
+[2016.03.30-06.40.56:415][840]AssetReimport: New page: Outstanding source content changes 4:40:56 PM
+[2016.03.30-06.40.56:417][840]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Thomas/Code/Talents/Content/img/bow_shoot.png)
+[2016.03.30-06.40.56:500][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/img/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/img/bow_shoot.uasset" SILENT=true
+[2016.03.30-06.40.56:507][841]LogSavePackage: Save=5.964482ms
+[2016.03.30-06.40.56:507][841]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shootF5177B944A775A6ACE8B89A44752E523.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/img/bow_shoot.uasset'
+[2016.03.30-06.40.56:510][841]LogSavePackage: Total save time: 8.838601ms
+[2016.03.30-06.40.56:510][841]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/img/bow_shoot.uasset
+[2016.03.30-06.40.59:803][903]AssetReimport: Info Importing new asset /Game/img/bow_shoot.
+[2016.03.30-06.41.02:157][910]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Thomas\Code\Talents\Content\img\bow_shoot.png)
+[2016.03.30-06.41.02:158][910]LogTexture:Display: Building textures: bow_shoot (AutoDXT)
+[2016.03.30-06.41.12:742][781]LogTexture:Display: Building textures: bow_shoot (BGRA8)
+[2016.03.30-06.41.30:244][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_0" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_0.uasset" SILENT=true
+[2016.03.30-06.41.30:258][693]LogSavePackage: Save=12.390666ms
+[2016.03.30-06.41.30:258][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_0BDA4C74D43D51A2C4CBCA688D9854807.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_0.uasset'
+[2016.03.30-06.41.30:261][693]LogSavePackage: Total save time: 15.605412ms
+[2016.03.30-06.41.30:261][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_0.uasset
+[2016.03.30-06.41.30:282][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_1" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_1.uasset" SILENT=true
+[2016.03.30-06.41.30:310][693]LogSavePackage: Save=10.690228ms
+[2016.03.30-06.41.30:310][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_1C57958A447D44EAB9B3BB5928284BB3A.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_1.uasset'
+[2016.03.30-06.41.30:312][693]LogSavePackage: Total save time: 13.573080ms
+[2016.03.30-06.41.30:312][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_1.uasset
+[2016.03.30-06.41.30:332][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_2" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_2.uasset" SILENT=true
+[2016.03.30-06.41.30:344][693]LogSavePackage: Save=9.905665ms
+[2016.03.30-06.41.30:344][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_2CECC43E44A61196CC26BEBAAA4E10E4C.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_2.uasset'
+[2016.03.30-06.41.30:346][693]LogSavePackage: Total save time: 12.808997ms
+[2016.03.30-06.41.30:346][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_2.uasset
+[2016.03.30-06.41.30:374][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_3" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_3.uasset" SILENT=true
+[2016.03.30-06.41.30:386][693]LogSavePackage: Save=10.204131ms
+[2016.03.30-06.41.30:386][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_3096687694D1CFF984E6D96A0508A8B9D.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_3.uasset'
+[2016.03.30-06.41.30:389][693]LogSavePackage: Total save time: 13.985693ms
+[2016.03.30-06.41.30:389][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_3.uasset
+[2016.03.30-06.41.30:410][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_4" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_4.uasset" SILENT=true
+[2016.03.30-06.41.30:440][693]LogSavePackage: Save=11.257342ms
+[2016.03.30-06.41.30:440][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_4B770554645905C190E70AC9648EC080A.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_4.uasset'
+[2016.03.30-06.41.30:443][693]LogSavePackage: Total save time: 14.385954ms
+[2016.03.30-06.41.30:443][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_4.uasset
+[2016.03.30-06.41.30:463][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_5" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_5.uasset" SILENT=true
+[2016.03.30-06.41.30:476][693]LogSavePackage: Save=10.604092ms
+[2016.03.30-06.41.30:476][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_5A737644D4983C665EE5A79955DDFFC02.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_5.uasset'
+[2016.03.30-06.41.30:479][693]LogSavePackage: Total save time: 13.529107ms
+[2016.03.30-06.41.30:479][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_5.uasset
+[2016.03.30-06.41.30:498][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_6" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_6.uasset" SILENT=true
+[2016.03.30-06.41.30:511][693]LogSavePackage: Save=10.785099ms
+[2016.03.30-06.41.30:511][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_6728E4F014D1F9D588AB1C78306DBB011.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_6.uasset'
+[2016.03.30-06.41.30:514][693]LogSavePackage: Total save time: 13.694152ms
+[2016.03.30-06.41.30:514][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_6.uasset
+[2016.03.30-06.41.30:533][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_7" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_7.uasset" SILENT=true
+[2016.03.30-06.41.30:563][693]LogSavePackage: Save=28.202385ms
+[2016.03.30-06.41.30:563][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_7821799A348665F676FAFD3AD735443A7.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_7.uasset'
+[2016.03.30-06.41.30:566][693]LogSavePackage: Total save time: 30.830443ms
+[2016.03.30-06.41.30:566][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_7.uasset
+[2016.03.30-06.41.30:585][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_8" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_8.uasset" SILENT=true
+[2016.03.30-06.41.30:598][693]LogSavePackage: Save=10.086973ms
+[2016.03.30-06.41.30:598][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_853C8A0F940AD6F6A5E38898495029598.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_8.uasset'
+[2016.03.30-06.41.30:601][693]LogSavePackage: Total save time: 13.684515ms
+[2016.03.30-06.41.30:601][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_8.uasset
+[2016.03.30-06.41.30:621][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_9" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_9.uasset" SILENT=true
+[2016.03.30-06.41.30:634][693]LogSavePackage: Save=10.593249ms
+[2016.03.30-06.41.30:634][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_9AF25B2544691D21F60A624A3EF7FCF90.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_9.uasset'
+[2016.03.30-06.41.30:637][693]LogSavePackage: Total save time: 13.679396ms
+[2016.03.30-06.41.30:637][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_9.uasset
+[2016.03.30-06.41.30:658][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_10" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_10.uasset" SILENT=true
+[2016.03.30-06.41.30:672][693]LogSavePackage: Save=11.338659ms
+[2016.03.30-06.41.30:672][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_109496972B4C65A6B4783EF0B86E00D75D.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_10.uasset'
+[2016.03.30-06.41.30:674][693]LogSavePackage: Total save time: 14.318492ms
+[2016.03.30-06.41.30:674][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_10.uasset
+[2016.03.30-06.41.30:695][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot_Sprite_11" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_11.uasset" SILENT=true
+[2016.03.30-06.41.30:709][693]LogSavePackage: Save=12.343682ms
+[2016.03.30-06.41.30:709][693]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_11774BDA5340CD836076F972B3C854B2BE.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_11.uasset'
+[2016.03.30-06.41.30:712][693]LogSavePackage: Total save time: 14.974453ms
+[2016.03.30-06.41.30:712][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot_Sprite_11.uasset
+[2016.03.30-06.41.47:524][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset" SILENT=true
+[2016.03.30-06.41.47:535][525]LogSavePackage: Save=9.639126ms
+[2016.03.30-06.41.47:535][525]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shootC1C528004F53D5D481157297B48294FC.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset'
+[2016.03.30-06.41.47:539][525]LogSavePackage: Total save time: 13.147216ms
+[2016.03.30-06.41.47:539][525]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Flipbooks/bow_shoot.uasset
+[2016.03.30-06.43.54:031][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot.uasset" SILENT=true
+[2016.03.30-06.43.54:054][598]LogSavePackage: Save=4.576364ms
+[2016.03.30-06.43.54:054][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot44152433492A3D70CE3662AEDE603381.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot.uasset'
+[2016.03.30-06.43.54:059][598]LogSavePackage: Total save time: 9.984877ms
+[2016.03.30-06.43.54:059][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Sprites/bow_shoot.uasset
+[2016.03.30-06.43.54:068][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot.uasset" SILENT=true
+[2016.03.30-06.43.54:079][598]LogSavePackage: Save=8.671749ms
+[2016.03.30-06.43.54:079][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shootA47C237144CDAB894B082F9C3991C4AF.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot.uasset'
+[2016.03.30-06.43.54:082][598]LogSavePackage: Total save time: 11.942215ms
+[2016.03.30-06.43.54:082][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot.uasset
+[2016.03.30-06.43.54:086][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_0" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_0.uasset" SILENT=true
+[2016.03.30-06.43.54:096][598]LogSavePackage: Save=6.879755ms
+[2016.03.30-06.43.54:096][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_0669F8ADF4038553DE68B7E8F6C74B418.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_0.uasset'
+[2016.03.30-06.43.54:099][598]LogSavePackage: Total save time: 10.402001ms
+[2016.03.30-06.43.54:099][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_0.uasset
+[2016.03.30-06.43.54:105][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_1" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_1.uasset" SILENT=true
+[2016.03.30-06.43.54:113][598]LogSavePackage: Save=5.829254ms
+[2016.03.30-06.43.54:113][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_16CBF95EC4747092361A88594BB6474F6.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_1.uasset'
+[2016.03.30-06.43.54:116][598]LogSavePackage: Total save time: 9.476792ms
+[2016.03.30-06.43.54:116][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_1.uasset
+[2016.03.30-06.43.54:122][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_10" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_10.uasset" SILENT=true
+[2016.03.30-06.43.54:130][598]LogSavePackage: Save=5.235336ms
+[2016.03.30-06.43.54:130][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_106D57627B4532D79C92E446955A43EB10.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_10.uasset'
+[2016.03.30-06.43.54:133][598]LogSavePackage: Total save time: 8.646447ms
+[2016.03.30-06.43.54:133][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_10.uasset
+[2016.03.30-06.43.54:138][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_11" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_11.uasset" SILENT=true
+[2016.03.30-06.43.54:146][598]LogSavePackage: Save=5.494347ms
+[2016.03.30-06.43.54:146][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_11145A821F466F49E27960EE9E4D9F95C1.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_11.uasset'
+[2016.03.30-06.43.54:149][598]LogSavePackage: Total save time: 9.099118ms
+[2016.03.30-06.43.54:150][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_11.uasset
+[2016.03.30-06.43.54:155][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_2" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_2.uasset" SILENT=true
+[2016.03.30-06.43.54:162][598]LogSavePackage: Save=5.418752ms
+[2016.03.30-06.43.54:162][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_21797FBEE4F76AEA9B50DE7A22E51D4BE.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_2.uasset'
+[2016.03.30-06.43.54:165][598]LogSavePackage: Total save time: 8.649766ms
+[2016.03.30-06.43.54:165][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_2.uasset
+[2016.03.30-06.43.54:170][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_3" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_3.uasset" SILENT=true
+[2016.03.30-06.43.54:185][598]LogSavePackage: Save=12.046422ms
+[2016.03.30-06.43.54:185][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_397C7DB394D1FB8353F2FBCAAC902B7E2.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_3.uasset'
+[2016.03.30-06.43.54:188][598]LogSavePackage: Total save time: 15.245210ms
+[2016.03.30-06.43.54:188][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_3.uasset
+[2016.03.30-06.43.54:194][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_4" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_4.uasset" SILENT=true
+[2016.03.30-06.43.54:200][598]LogSavePackage: Save=5.377189ms
+[2016.03.30-06.43.54:201][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_48E91C69D4242C80C8CF67DA0FDC07A4D.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_4.uasset'
+[2016.03.30-06.43.54:204][598]LogSavePackage: Total save time: 9.280726ms
+[2016.03.30-06.43.54:204][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_4.uasset
+[2016.03.30-06.43.54:210][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_5" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_5.uasset" SILENT=true
+[2016.03.30-06.43.54:217][598]LogSavePackage: Save=4.782970ms
+[2016.03.30-06.43.54:217][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_53054B6CA44F847D9D03E3A8BD086921E.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_5.uasset'
+[2016.03.30-06.43.54:220][598]LogSavePackage: Total save time: 8.128431ms
+[2016.03.30-06.43.54:220][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_5.uasset
+[2016.03.30-06.43.54:225][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_6" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_6.uasset" SILENT=true
+[2016.03.30-06.43.54:233][598]LogSavePackage: Save=4.700749ms
+[2016.03.30-06.43.54:233][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_612DD1DC34167BC37B9099480991EA556.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_6.uasset'
+[2016.03.30-06.43.54:235][598]LogSavePackage: Total save time: 7.720936ms
+[2016.03.30-06.43.54:236][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_6.uasset
+[2016.03.30-06.43.54:240][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_7" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_7.uasset" SILENT=true
+[2016.03.30-06.43.54:247][598]LogSavePackage: Save=4.851036ms
+[2016.03.30-06.43.54:248][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_782A2640B4F07864A7B59CFBC560D30E4.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_7.uasset'
+[2016.03.30-06.43.54:250][598]LogSavePackage: Total save time: 8.206435ms
+[2016.03.30-06.43.54:250][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_7.uasset
+[2016.03.30-06.43.54:255][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_8" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_8.uasset" SILENT=true
+[2016.03.30-06.43.54:263][598]LogSavePackage: Save=5.457302ms
+[2016.03.30-06.43.54:263][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_845CEA7AA460A00DE19A5BF8C962617E8.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_8.uasset'
+[2016.03.30-06.43.54:266][598]LogSavePackage: Total save time: 8.648861ms
+[2016.03.30-06.43.54:266][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_8.uasset
+[2016.03.30-06.43.54:271][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/bow_shoot_Sprite_9" FILE="../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_9.uasset" SILENT=true
+[2016.03.30-06.43.54:299][598]LogSavePackage: Save=4.793511ms
+[2016.03.30-06.43.54:299][598]LogSavePackage: Moving '../../../../../../Users/Thomas/Code/Talents/Saved/bow_shoot_Sprite_94B877932450385F4DA97A3AC77F71518.tmp' to '../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_9.uasset'
+[2016.03.30-06.43.54:302][598]LogSavePackage: Total save time: 7.723346ms
+[2016.03.30-06.43.54:302][598]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Thomas/Code/Talents/Content/Textures/bow_shoot_Sprite_9.uasset
+[2016.03.30-06.43.54:544][598]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-06.43.54:946][599]Cmd: QUIT_EDITOR
+[2016.03.30-06.43.55:454][599]LogExit: Preparing to exit.
+[2016.03.30-06.43.56:107][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000065135FBEC0
+[2016.03.30-06.43.56:110][599]LogExit: Editor shut down
+[2016.03.30-06.43.56:111][599]LogExit: Transaction tracking system shut down
+[2016.03.30-06.43.56:111][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000065035E2840
+[2016.03.30-06.43.56:345][599]LogExit: Object subsystem successfully closed.
+[2016.03.30-06.43.56:359][599]LogD3D11RHI: Shutdown
+[2016.03.30-06.43.56:359][599]LogD3D11RHI: CleanupD3DDevice
+[2016.03.30-06.43.56:416][599]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.30-06.43.56:457][599]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.03.30-06.43.56:457][599]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.03.30-06.43.56:457][599]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.03.30-06.43.56:457][599]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.03.30-06.43.56:457][599]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.03.30-06.43.56:496][599]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.03.30-06.43.56:496][599]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.03.30-06.43.56:496][599]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.03.30-06.43.56:497][599]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.03.30-06.43.56:898][599]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.03.30-06.43.56:899][599]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.03.30-06.43.56:900][599]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.03.30-06.43.57:011][599]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.03.30-06.43.57:029][599]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.03.30-06.43.57:030][599]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.03.30-06.43.57:031][599]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.03.30-06.43.57:035][599]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.03.30-06.43.57:230][599]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.03.30-06.43.57:232][599]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.03.30-06.43.57:232][599]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.03.30-06.43.57:333][599]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.03.30-06.43.57:333][599]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.03.30-06.43.57:333][599]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.03.30-06.43.57:336][599]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.03.30-06.43.57:337][599]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.03.30-06.43.57:337][599]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.03.30-06.43.57:340][599]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.03.30-06.43.57:341][599]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.03.30-06.43.57:348][599]LogDerivedDataCache: Shutdown
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.03.30-06.43.57:348][599]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.03.30-06.43.57:349][599]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.03.30-06.43.57:349][599]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.03.30-06.43.57:349][599]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.03.30-06.43.57:349][599]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.03.30-06.43.58:350][599]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.03.30-06.43.58:350][599]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.30-06.43.58:350][599]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.30-06.43.58:350][599]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.30-06.43.58:350][599]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.30-06.43.58:350][599]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.30-06.43.58:352][599]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.30-06.43.58:353][599]LogExit: Exiting.
+[2016.03.30-06.43.58:359][599]Log file closed, 03/29/16 23:43:58
